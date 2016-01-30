@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78D1C5DE-4279-4B59-8473-02396869F169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0C4BCEC-B180-44D9-972A-4CDF23D056E2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aspnet-logging-02-vs", "src\aspnet-logging-02-vs\aspnet-logging-02-vs.xproj", "{B16C1BE4-CA4F-4248-ACBF-CE301F5237DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B16C1BE4-CA4F-4248-ACBF-CE301F5237DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16C1BE4-CA4F-4248-ACBF-CE301F5237DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16C1BE4-CA4F-4248-ACBF-CE301F5237DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16C1BE4-CA4F-4248-ACBF-CE301F5237DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B16C1BE4-CA4F-4248-ACBF-CE301F5237DE} = {78D1C5DE-4279-4B59-8473-02396869F169}
+	EndGlobalSection
+EndGlobal
