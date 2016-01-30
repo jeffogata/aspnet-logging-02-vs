@@ -1,7 +1,6 @@
 ﻿namespace aspnet_logging_02_vs
 {
     using Microsoft.Extensions.Logging;
-    using Microsoft.Extensions.Logging.Internal;
 
     public class MyClass
     {
@@ -14,9 +13,7 @@
 
         public void DoSomething(int input)
         {
-            var values = new FormattedLogValues("Starting to do something with input: {0}", input);
-
-            _logger.LogDebug(values);
+            _logger.LogDebug("Starting to do something with input: {0}", input);
 
             if (input >= -1 && input <= 1)
             {
